@@ -1,0 +1,50 @@
+.card {
+    display: flex;
+    gap: 32px;
+
+    &__inner {
+        background: #FFFFFF;
+        border-radius: 0px;
+    }
+
+
+    &__content {
+        padding: 35px 97px 35px 36px;
+    }
+
+    &__data {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 23px;
+        color: #F7A500;
+        padding-bottom: 15px;
+    }
+
+    &__title {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color: #000000;
+    }
+
+    &__subtitle {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 23px;
+        color: #000000;
+        padding: 15px 0 27px 0;
+    }
+
+    &__button {
+        p {
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #6F1EAA;
+        }
+    }
+}

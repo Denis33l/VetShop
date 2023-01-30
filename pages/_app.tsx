@@ -6,6 +6,7 @@ import Rules from '../componets/Rules/Rules'
 import Works from '../componets/Works/Works'
 import Veterinarins from '../componets/Veterinarians/Veterinarians'
 import Pets from '../componets/Pets/Pets'
+import Wild from '../componets/Wild/Wild'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -16,6 +17,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <Works />
       <Veterinarins />
       <Pets /> 
+      <Wild />
       <Component {...pageProps} />
     </>
   )

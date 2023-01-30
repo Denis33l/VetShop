@@ -1,0 +1,68 @@
+.container__wild {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.wild {
+
+    &__container {
+        background: url('../../assets/Wild/background.png');
+        position: relative;
+    }
+
+    &__image {
+        &-left {
+            position: absolute;
+            top: 35.5%;
+            left: 0%;
+        }
+
+        &-right {
+            position: absolute;
+            top: 54.5%;
+            right: 0%;
+        }
+    }
+
+    &__title {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 44px;
+        line-height: 53px;
+        text-align: center;
+        color: #000000;
+        padding: 58px 0 30px 0;
+    }
+
+    &__subtitle {
+        max-width: 455px;
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 23px;
+        text-align: center;
+        color: #000;
+        margin-left: 155px;
+        padding-bottom: 76px;
+    }
+
+    &__button-block {
+        padding: 47px 0 57px 0;
+    }
+
+    &__button {
+        background: #6F1EAA;
+        border-radius: 24px;
+        padding: 14px 40px;
+        margin-left: 325px;
+
+        p {
+            font-family: 'Roboto';
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+        }
+    }
+}
