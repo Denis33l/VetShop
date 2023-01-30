@@ -1,0 +1,84 @@
+.works {
+
+    &__container {
+        background: url('../../assets/Works/background.png');
+    }
+
+    &__title {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 44px;
+        line-height: 53px;
+        text-align: center;
+        padding: 60px 0 288px 0;
+    }
+
+    &__contnent {
+        display: flex;
+        gap: 49px;
+        align-items: center;
+        text-align: center;
+    }
+
+    &__block {
+        position: relative;
+    }
+
+    &__image {
+        &-bird {
+            position: absolute;
+            bottom: 123%;
+            left: -5%;
+        }
+
+        &-rabbit {
+            position: absolute;
+            bottom: 126%;
+            left: -4%;
+        }
+
+        &-dog {
+            position: absolute;
+            bottom: 110%;
+            left: -7%;
+        }
+    }
+
+    &__subtitle {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color: #6F1EAA;
+        padding-bottom: 11px;
+    }
+
+    &__description {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 23px;
+        max-width: 357px;
+        margin-bottom: 65px;
+    }
+
+    &__description:nth-child(1) {
+        max-width: 326px;
+    }
+
+    &__button {
+        text-align: center;
+        padding-bottom: 60px;
+
+        &-text {
+            font-family: 'Roboto';
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+            background: #6F1EAA;
+            border-radius: 24px;
+            padding: 15px 40px;
+        }
+    }
+}

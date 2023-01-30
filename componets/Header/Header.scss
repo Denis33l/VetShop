@@ -1,0 +1,40 @@
+.header {
+    &__contaner {
+        max-width: 1180px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+        max-height: 93px;
+    }
+
+    &__navigation {
+        display: flex;
+        gap: 33px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    &__logo {
+        padding: 31px;
+        margin: 0 327px 0 71px;
+    }
+
+    &__button {
+        background: #6F1EAA;
+        border-radius: 19px;
+        padding: 10px 33px;
+        color: #FFFFFF;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+    }
+}

@@ -1,0 +1,79 @@
+.pets {
+
+    &__container {
+        position: relative;
+    }
+
+    &__image {
+        &-left {
+            position: absolute;
+            top: 35.5%;
+            left: 0%;
+        }
+
+        &-right {
+            position: absolute;
+            top: 35.5%;
+            right: 0%;
+        }
+    }
+
+    &__title {
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 43px;
+        line-height: 53px;
+        text-align: center;
+        padding: 58px 0 24px 0;
+    }
+
+    &__subtitle {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 33px;
+        text-align: center;
+
+        span {
+            color: rgba(111, 30, 170, 1);
+        }
+    }
+
+    &__content {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        background: #DFF5F6;
+        border-radius: 20px;
+        margin: 27px 0 162px 0;
+        padding: 58px 40px
+    }
+
+    &__description {
+        position: relative;
+    }
+
+    &__image-love {
+        position: absolute;
+        top: -151%;
+        right: -21%;
+    }
+
+    &__description-text {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    &__desription-instagram {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 33px;
+    }
+
+}

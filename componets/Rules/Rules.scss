@@ -1,0 +1,54 @@
+.rules {
+
+    &__container {
+        display: flex;
+        gap: 147px;
+    }
+
+    &__title {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 44px;
+        line-height: 53px;
+        color: #000000;
+
+        p {
+            padding: 58px 0 27px 0;
+        }
+    }
+
+    &__subtitle {
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color: #6F1EAA;
+        padding-top: 30px;
+    }
+
+    &__subtitle:first-child {
+        padding-top: 58px;
+    }
+
+    &__description {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+        color: #000000;
+        border-bottom: 1px solid #F7A500;
+        padding: 19px 0 27px 0;
+    }
+
+    &__post-scriptum {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 23px;
+        color: #000000;
+    }
+
+    &__description:last-child {
+        border-bottom: none;
+    }
+}

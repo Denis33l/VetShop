@@ -1,0 +1,20 @@
+@import './utils/reset';
+@import './utils/fonts';
+
+//Header
+@import '../componets/Header/Header.scss';
+
+//Main
+@import '../componets/Main/Main.scss';
+
+//Rules
+@import '../componets/Rules/Rules.scss';
+
+//Works
+@import '../componets/Works/Works.scss';
+
+//Veterinarians
+@import '../componets/Veterinarians/Veterinarians.scss';
+
+//Pets
+@import '../componets/Pets/Pets.scss';
