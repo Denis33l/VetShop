@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Rabbit from '../../assets/Petpharmacy/rabbit.png';
 import LeftImage from '../../assets/Petpharmacy/left.png'
 import RightImage from '../../assets/Petpharmacy/right.png';
+import TelegramIcon from '../../assets/Pets/telegram.svg';
 
 function Main() {
     return (
@@ -25,7 +26,9 @@ function Main() {
                 <div className="main__rabbit">
                     <Image src={Rabbit} alt='Rabbit' />
                 </div>
-
+            </div>
+            <div className="main__telegram">
+                <Image src={TelegramIcon} alt='Telegram' width={65} height={65} className="main__telegram-image"/>
             </div>
         </div>
     )

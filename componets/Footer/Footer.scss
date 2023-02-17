@@ -1,0 +1,56 @@
+.quicklinks__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.social__container {
+    display: flex;
+    gap: 10px;
+}
+
+.social__link {
+    cursor: pointer;
+}
+
+.footer {
+
+    &__container-bright {
+        background: url('../../assets/Footer/back1.png');
+    }
+
+    &__image-block {
+        padding: 40px 0 24px 0;
+        display: flex;
+        gap: 70px;
+    }
+
+    &__container-dark {
+        background: url('../../assets/Footer/back2.png');
+    }
+
+    &__description {
+        display: flex;
+        gap: 50px;
+        padding: 56px 0 70px 0;
+    }
+
+    &__title {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.6px;
+        text-transform: uppercase;
+        color: #C282F0;
+    }
+
+    &__text {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #FFFFFF;
+        padding: 15px 0;
+    }
+
+}

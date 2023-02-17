@@ -12,7 +12,7 @@ function Header() {
                         <Link href='/'>How it works</Link>
                         <Link href='/'>About us</Link>
                         <Link href='/'>Blog</Link>
-                        <Link href='/'>Shop</Link>
+                        <Link href='/shop'>Shop</Link>
                     </div>
                     <div className="header__logo">
                         <Image src={Logo} alt='logo' />

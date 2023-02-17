@@ -43,6 +43,7 @@
         line-height: 28px;
         max-width: 491px;
         margin: 0 auto;
+
         span {
             color: #6F1EAA;
         }
@@ -68,5 +69,15 @@
         position: absolute;
         bottom: 0%;
         right: 30%;
+    }
+
+    &__telegram {
+        &-image {
+            position: fixed;
+            z-index: 2;
+            bottom: 5%;
+            right: 5%;
+            cursor: pointer;
+        }
     }
 }

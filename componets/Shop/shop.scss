@@ -1,0 +1,57 @@
+.shop {
+
+    &__container {
+        display: flex;
+    }
+
+    &__card {
+        padding: 35px;
+        max-width: 350px;
+    }
+
+    &__name {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        text-align: center;
+
+        padding: 15px 0;
+    }
+
+    &__price {
+        background-color: #6F1EAA;
+        padding: 15px 20px;
+    }
+
+    &__price-number {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    &__button {
+        background-color: #6F1EAA;
+        padding: 15px 35px;
+        margin-left: 470px;
+        margin-bottom: 15px;
+
+        &-name {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+            letter-spacing: 0.1em;
+            color: #FFFFFF;
+        }
+    }
+}
